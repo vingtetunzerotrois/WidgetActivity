@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/increase_size"
+        android:title="@string/menu_size_up" />
+    <item
+        android:id="@+id/decrease_size"
+        android:title="@string/menu_size_down" />
+    <item
+        android:id="@+id/move_up"
+        android:title="@string/menu_widget_move_up"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/move_down"
+        android:title="@string/menu_widget_move_down"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/remove_widget"
+        android:title="@string/menu_widget_remove"
+        app:showAsAction="never" />
+</menu>
